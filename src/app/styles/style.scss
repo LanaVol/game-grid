@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: var(--bg-color-darkCoral);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 1px;
+}
+
+.hearts,
+.diamonds {
+  font-size: 24px;
+  color: var(--color-red);
+}
+
+.clubs,
+.spades {
+  font-size: 26px;
+  color: black;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--bg-color-dark);
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+  background-color: var(--color-white);
+
+  transition: all 200ms linear;
+}
+
+.lightGrey {
+  color: var(--bg-color-dark);
+  background-color: var(--bg-dark-color) !important;
+}
