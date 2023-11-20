@@ -6,7 +6,7 @@ This JavaScript code represents a game board with the functionality to generate 
 
 Link to preview:
 
-<img src="./src/app/image/image-1.png" alt="Alt text" width="300" height="233" />
+<img src="./src/app/image/image-1.png" alt="Alt text" width="400" height="333" />
 
 ## Key Requirements
 
