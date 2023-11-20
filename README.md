@@ -4,7 +4,7 @@ This JavaScript code represents a game board with the functionality to generate 
 
 ## 🚀 Preview
 
-Link to preview:
+Link to preview:https://lanavol.github.io/game-grid/
 
 <img src="./src/app/image/image-1.png" alt="Alt text" width="400" height="333" />
 
